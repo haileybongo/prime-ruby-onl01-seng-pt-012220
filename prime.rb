@@ -5,5 +5,5 @@ def prime(number)
     array = []
     array = (1..number).to_a
     array.each do |factor|
-      result = number / factor 
+      result = number%factor 
       if result 
