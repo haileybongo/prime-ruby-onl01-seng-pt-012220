@@ -3,7 +3,7 @@ def prime(number)
     return false 
   else 
     array = []
-    array = (1..number).to_a
+   (2..number-1).to_a
     array.each do |factor|
       result = number%factor 
       if result 
